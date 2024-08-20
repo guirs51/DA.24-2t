@@ -1,0 +1,94 @@
+ALGORITMO PAR OU IMPAR: 
+
+CONCEITO BASE -->
+
+O algoritmo(1) deve receber um numero do usuario e descobrir se esse numero e par ou impar. 
+
+SAIDA ESPERADA -->
+
+CASO 1 -->
+O usuario envia o numero  4, o algoritmo guarda esse numero dentro de uma variavel {numeroDoUser} e faz a verificação retornando ao usuario 
+a seguinte mensagem "O numero do usuario(numeroDoUser) é par"
+
+CASO 2 --> 
+O usuario envia o numero  3, o algoritmo guarda esse numero dentro de uma variavel {numeroDoUser} e faz a verificação retornando ao usuario 
+a seguinte mensagem "O numero do usuario(numeroDoUser) é impar"
+
+CASO 3 -->  
+O usuario envia um texto(String), logo o algoritmo reconhece como NaN(Not a Number) e sempre vai retornar impar, pois NaN não se encaixa na verificação, uma vez que o algoritmo não compara o tipo da variavel. Uma solução seria fazer uma atualização no algoritmo para previnir e impossibilitar o usuario de enviar requisições que não são numeros ou inteiros
+
+CASO 4 --> 
+O usuario envia o numero  -445, o algoritmo guarda esse numero dentro de uma variavel {numeroDoUser} e faz a verificação retornando ao usuario 
+a seguinte mensagem "O numero do usuario(numeroDoUser) é impar"
+
+CASO 5 --> 
+O usuario não envia nenhum numero, por consequencia o valor do usuario acabar por ser igual a zero, com isso o algoritmo entende que ele é um numero par e 
+retorna a seguinte mensagem "O numero do usuario(numeroDoUser) é par"
+
+
+
+Resultados ---->
+
+
+Resultado 1 -->
+
+No primeiro resultado aconteceu exatamente como o caso 1 explicava, o algoritmo reconheceu 4 como um numero par uma vez que o resto da divisão de 4 por 2 = 0, {4 % 2 = 0}
+
+Resultado 2 -->
+
+No segundo resultado, ocorreu tudo como esperado, enviamos o numero 3 e o algoritmo fez a verificação e retornou que o numero 3 é impar {3 % 2 =  1, diferente de 0, != 0}
+
+Resultado 3 --> 
+
+No terceiro resultado o algoritmo reconheceu a string como NaN, ou seja "not a number", como NaN não se encaixa como numero ele sempre vai cair no else "NaN é impar" já que o algoritmo não compara os tipos da variavel, se NaN % 2 é diferente de 0 o algoritmo acaba por entender que NaN é impar. Uma solução seria fazer uma função que checa o tipo da variavel, caso ela seja diferente de "Number" o programa se encerra, caso o contrário ele avança para a verificação. Outra solução e impossibilitar o usuario de digitar Strings ou numeros que não sejam inteiros.
+
+Resultado 4 --> 
+
+Novamente o algoritmo funcionou e passou no teste, enviamos um numero negativo -445 e o algoritmo fez a verificação {-445 % 2 = -1}, ou seja impar
+
+Resultado 5 -->
+
+Não enviamos nenhum número por tanto o valor da variavel recebeu 0 ,como valor e 0 é considerado par por está entre o 1 e o -1, o algoritmo respondeu como esperado.
+
+
+ALGORITOMO CELCIUS EM FAHRENHEIT 
+
+CONCEITO BASE ->
+
+ o algoritmo(1) deve receber um numero do usuário em célsius e transforma em fahrenheit
+
+SAIDA ESPERADA ->
+
+CASO 1 ->
+ o usuário envia numero 0, o algoritmo guarda esse numero dentro de uma variável {grauDoUser} e o algoritmo faz a verificação retornado ao usuário a seguinte mensagem " A  temperatura do user { j ==> 0 graus celcius } convertida para fahrenheit é 32 fahrenheit "
+
+
+CASO 2 ->
+ o usuário envia numero 8, o algoritmo guarda esse numero dentro de uma variável {grauDoUser} e o algoritmo faz a verificação retornado ao usuário a seguinte mensagem " A  temperatura do user { k ==> 8 graus celcius } convertida para fahrenheit é 46 fahrenheit "
+
+
+CASO 3 ->
+ o usuário envia a letra M, o algoritmo guarda essa letra dentro de uma variável {grauDoUser} e o algoritmo faz a verificação retornado ao usuário a seguinte mensagem " A  temperatura do user { j ==> NaN graus celcius } convertida para fahrenheit é NaN fahrenheit "
+
+
+CASO 4 ->
+ o usuário envia numero 300, o algoritmo guarda esse numero dentro de uma variável {grauDoUser} e o algoritmo faz a verificação retornado ao usuário a seguinte mensagem " o numero do usuário em fahrenheit é {tempEmFahrenheit} "
+
+
+CASO 5 ->
+ o usuário envia numero -55, o algoritmo guarda esse numero dentro de uma variável {grauDoUser} e o algoritmo faz a verificação retornado ao usuário a seguinte mensagem " A  temperatura do user { ç ==> -55 graus celcius } convertida para fahrenheit é -67 fahrenhei "
+
+
+resultados ----> 
+
+
+No primeiro resultado aconteceu exatamente como o caso 1 explicava, o algoritmo reconheceu 0 e o multiploca por 1.8 e depois soma mais 32, e depois retorna a seguinte mensagem: "A  temperatura do user { h ==> 0 graus celcius } convertida para fahrenheit é 32 fahrenheit"
+
+No seguando resultado aconteceu exatamente como o caso 2 explicava, o algoritmo reconheceu 0 e o multiploca por 1.8 e depois soma mais 32, e depois retorna a seguinte mensagem: A  temperatura do user { k ==> 8 graus celcius } convertida para fahrenheit é 46 fahrenheit"
+
+No terceiro resultado aconteceu exatamente como o caso 3 explicava, o algoritmo reconheceu 0 e o multiploca por 1.8 e depois soma mais 32, e depois retorna a seguinte mensagem:"A  temperatura do user { h ==> NaN graus celcius } convertida para fahrenheit é NaN fahrenheit"
+
+
+No quarto  resultado aconteceu exatamente como o caso 4 explicava, o algoritmo reconheceu 0 e o multiploca por 1.8 e depois soma mais 32, e depois retorna a seguinte mensagem:"A  temperatura do user { j ==> 300 graus celcius } convertida para fahrenheit é 572 fahrenheitt"
+
+No quinto  resultado aconteceu exatamente como o caso 5 explicava, o algoritmo reconheceu 0 e o multiploca por 1.8 e depois soma mais 32, e depois retorna a seguinte mensagem:"A  temperatura do user { j ==> -55 graus celcius } convertida para fahrenheit é -67 fahrenheit
