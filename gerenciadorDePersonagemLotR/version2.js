@@ -59,3 +59,29 @@ function acoes(listaDePersonagens) {
   listaDePersonagens.historicoAcoes.push(ataqueEspecial());
 }
 
+const buscar = prompt("digite um personage para buscar")
+console.log(listaDePersonagens.find((personagem) =>  personagem.nome === buscar ))
+  const ataque = "voce fez um ataque especial";
+  console.log(ataque);
+  listaDeacoes.push(ataque);
+  personagemNUll.historicoAcoes.push(ataque);
+}
+
+function defesa() {
+  const defesa = "voce usou uma defesa";
+  console.log(defesa);
+  listaDeacoes.push(defesa);
+}
+
+defesa();
+ataqueEspecial();
+ataqueNormal();
+acoes(listaDePersonagens[1]);
+console.log(listaDeacoes);
+
+function acoes(listaDePersonagens) {
+  listaDePersonagens.historicoAcoes.push(defesa());
+  listaDePersonagens.historicoAcoes.push(ataqueNormal());
+  listaDePersonagens.historicoAcoes.push(ataqueEspecial());
+}
+
