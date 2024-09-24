@@ -61,3 +61,10 @@ function acoes(listaDePersonagens) {
 
 const buscar = prompt("digite um personage para buscar")
 console.log(listaDePersonagens.find((personagem) =>  personagem.nome === buscar ))
+
+const excluir = prompt("digite o nome de um personagem para excluir ele ")
+console.log(listaDePersonagens.splice((personagem) => personagem.nome === excluir))
+
+const listaAlfabética = listaDePersonagens["nome"].sort();
+
+console.log(listaAlfabética)
