@@ -2,7 +2,7 @@
 const personagens =  [ // array de personagens
     {nome: "link", vida: 2, forca: 10 , resitencia: 10},
     {nome: "zelda", vida: 20, forca: 10, resitencia: 10},
-    {nome: "oi", vida: 20, forca: 10, resitencia: 10}
+    {nome: "!", vida: 2, forca: 10, resitencia: 10},
 ]
 
 const arma = [ // array de armas
@@ -16,9 +16,12 @@ const itens = [  // array de itens
     {nome: "rupees", efeito: "comprar algo"}
 ]
 
+let caracteres = ["",'',"!","@","#","$","$"] // fazer 
+
+
 function validarPersonagens(personagens){
     for( const p of personagens){
-        if(typeof p.nome !== `string`){  // valida se o nome do personagem tem tipo strig 
+        if(typeof p.nome !== `string` || p.nome === `number`){  // valida se o nome do personagem tem tipo strig 
           return `Erro: Personagem com nome inválido.` // mensagem imprimida no console se o tipo do nome do personagem não for strig
         }
         if( typeof p.vida !== `number` || p.vida < 1 || p.vida > 20){ // valida a quantida de vida que o personagem pode ter
