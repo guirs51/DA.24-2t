@@ -1,0 +1,13 @@
+
+  DESCRIÇÃO:
+    meu trabalho de recuperação é um jogo onde o usuário controla através do prompt. o jogo possui todos os requisitos pedidos, isso vai aparecendo conforme o andamento do jogo.
+
+ESTRUTURA DE DADOS: 
+  a estrutura que eu usei foi de criar as funções, array den personagens, array de itens ,matrix de inventários, array de inimigos em cima. nas primeiras linhas do editor de código(VSCODE) e deixei pra chamar as funções durante o jogo. fiz desse modo para eu ter controle de qual é o tipo das minhas variáveis e que que valor elas tem quando são usadas durante o código e quando são usadas na função.
+
+ DESCRIÇÃO DOS ALGORITMOS IMPLEMENTADOS E DAS ENTRADAS/SAIDAS TESTADAS:
+  essa descrição esta no código, e  será escrita em cima do codigo
+
+ OBS:
+  o jogo fui feito para ter múltiplas escolhas, fazer um escolha durante o jogo pode fazer a outra não aparecer. assim tendo que reiniciar o programa, mas fiz de tal modo que tal escolha faça voltar para outro ou que tenha o mesmo sistema testado  
+  
