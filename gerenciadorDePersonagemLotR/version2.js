@@ -3,12 +3,12 @@ const listaDePersonagens = [];
 let listaDeacoes = [];
 
 const personagemNUll = {
-  nome: "",
-  class: "",
-  nivel: "",
-  habilidadeInicial: "",
-  HP: "",
-  historicoAcoes: [],
+  nome: "Frodo",
+  class: "Hobbit",
+  nivel: "120",
+  habilidadeInicial: "Manipular açoes do inimigos com o anel magico",
+  HP: "80",
+  historicoAcoes: ["Manipulou o Darth Vader e seus policiais interistelares."],
 };
 function criarPersonagem(personagem) {
   const criandoPersonagem = (personagem = {
@@ -68,3 +68,4 @@ console.log(listaDePersonagens.splice((personagem) => personagem.nome === exclui
 const listaAlfabética = listaDePersonagens["nome"].sort();
 
 console.log(listaAlfabética)
+
